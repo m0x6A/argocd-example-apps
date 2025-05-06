@@ -8,7 +8,7 @@ spec:
     - websecure
   routes:
     - kind: Rule
-      match: Host(`argocd.serval`)
+      match: Host(`guestbook.serval`)
       priority: 10
       services:
         - name: guestbook-ui
