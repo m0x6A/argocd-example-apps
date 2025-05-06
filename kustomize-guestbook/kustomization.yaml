@@ -1,7 +1,7 @@
 namePrefix: kustomize-
 
 resources:
+- ingress-traefik.yaml
 - guestbook-ui-deployment.yaml
-- ingress-traefík.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
